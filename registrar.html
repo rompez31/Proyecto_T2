@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icono-registrar.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Registrarse</title>
+</head>
+<body class="fondoiniciosesion">  
+    <header>
+        <!-- Menú -->
+        <nav>
+            <div><img class="logo" src="img/icono1.png" alt=""><a class="links" href="Inicio.html"><b class="nombre">Arfly</b></a></div>
+            <ul class="menu">
+                <li><a class="links" href="servicios.html"> <b>Servicios</b></a></li>
+                <li class="desplegable"><b>Vuelos</b>
+                    <ul class="vuelos">
+                        <li class="vuelosbaratos"><a class="links" href="vuelos_baratos.html">Vuelos Baratos</a></li>
+                        <li class="vuelosrecomendados"><a class="links" href="vuelos_recomendados.html">Vuelos Recomendables</a></li>
+                        <li class="otrosvuelos"><a class="links" href="otros_vuelos.html">Otros Vuelos</a></li>
+                    </ul>
+                </li>
+                <li><a class="links" href="reclamaciones.html"> <b>Reclamaciones</b></a></li>
+                <li><a href="Bloquenoticias.html" class="links"><b>Blog de Noticias</b></a></li>
+                <li class="desplegable"> <b>Área de Clientes</b>
+                    <ul class="cliente">
+                        <li class="iniciosesion"><a class="links" href="iniciar_sescion.html"> Inicio Sesion</a></li>
+                        <li class="registro"><a class="links" href="registrar.html"> Registrarse</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="bloque_ini">
+        <div>
+            <h2>Registate</h2> <br>
+            <form action="mailto:Arfly@outlook.com" name="datos_Contacto" method="post">
+                <div class="form_ini">
+                    <p>Nombre Completo</p> <br> <input required placeholder="Nombre Completo" type="text"> <br>
+                    <br>
+                    <p>Correo Electronico</p> <br> <input required placeholder="Correo Electronico" type="emali"> <br>
+                    <br>
+                    <p>Cosntraseña</p> <br> <input required placeholder="Contraseña" type="password"> <br>
+                    <br>
+                    <p>Confirmar Cosntraseña</p> <br> <input required placeholder="Confirmar Contraseña" type="password"> <br>
+                    <br>
+                    <button class="form_mandar" id="enviar_ini"><input type="submit" value="Enviar" class="env_res"></button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="redessociales">
+        <div class="redes">
+            <div class="posicionamiento"><img class="imagenesredes" src="img/facebook.png" alt=""><b class="texto1">Arfly</b>
+            <img class="imagenesredes" src="img/Instagram.jpeg" alt=""><b>Arfly</b>
+            <img class="imagenesredes2" src="img/Twitter.png" alt=""><b>Arfly</b></div>
+        </div>
+    </section>
+</body>
+</html>
